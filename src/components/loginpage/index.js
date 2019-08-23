@@ -22,8 +22,8 @@ class LoginPage extends Component {
     this.setState({ password: event.target.value })
   }
 
-  handleSubmit = (event) =>{
-    const { email, password } = this.statethis.props.login(email, password)
+  handleSubmit = () =>{
+    const { email, password } = this.props.login(email, password)
   }
 
   render() {
